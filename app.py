@@ -17,6 +17,10 @@ from policies import get_category_policy, clean_offer_text
 
 app = FastAPI(title="VERA Bot", version="1.0.0")
 
+@app.get("/")
+def root():
+    return {"status": "VERA Bot running"}
+
 @app.get("/v1/healthz")
 def healthz():
     return {
