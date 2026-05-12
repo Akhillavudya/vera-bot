@@ -37,6 +37,7 @@ Generate grounded message
         ↓
 Return CTA, send identity, suppression key, and rationale
 
+```
 
 🔌 API Endpoints
 
